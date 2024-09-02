@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"forceConsistentCasingInFileNames": true,
+		"lib": ["ESNext"],
+		"module": "NodeNext",
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"target": "ESNext"
+	},
+	"include": ["*.ts"]
+}

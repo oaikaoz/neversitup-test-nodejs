@@ -4,9 +4,11 @@
  * @returns {number} one number that odd number
  */
 const findOddNumber = (text) => {
-    // TODO : start your code here
+    return [...new Set(text)].find(num => {
+        let sum = text.filter(o => o === num).length
+        if(sum %2 !== 0) return true
+    }) ?? null;
 }
-
 
 module.exports = {
     findOddNumber

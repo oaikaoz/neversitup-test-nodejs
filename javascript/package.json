@@ -1,0 +1,11 @@
+{
+  "name": "test-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "manipulate.js",
+  "scripts": {
+    "test": "node --test *.js "
+  },
+  "author": "",
+  "license": "ISC"
+}
